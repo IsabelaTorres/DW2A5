@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div class="container col-sm-4">
+        <h1>Formulário</h1>
+        <hr>
+        <form action="destinoPraticando.php" method="POST">
+
+            <div class="col-sm-12 mb-2">
+                <label for="titulo" class="form-label">Título da página:</label>
+                <input type="text" class="form-control" name="titulo" required>
+            </div>
+ 
+            <div class="col-sm-12 mb-4">
+                <label for="corpo" class="form-label">Corpo:</label>
+                <textarea class="form-control" name="corpo" required></textarea>
+            </div>
+
+            <div class="col-sm-12 mb-2">
+                <label for="cor" class="form-label">Cor do texto:</label>
+                <input type="color" class="form-control" name="cor" required>
+            </div>
+
+            <div class="col-sm-12 mb-2">
+                <label for="imagem" class="form-label">URL de uma imagem:</label>
+                <input type="text" class="form-control" name="imagem" required>
+            </div>
+
+            <div class="col-sm-12 mb-2">
+                <label for="link" class="form-label">URL de link:</label>
+                <input type="text" class="form-control" name="link" required>
+            </div>
+
+            <div class="col-sm-12 mb-2">
+                <label for="corfundo" class="form-label">Cor de fundo:</label>
+                <input type="color" class="form-control" name="corfundo" required>
+            </div>
+
+            <div class="col-sm-12 text-center">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <button type="reset" class="btn btn-warning">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

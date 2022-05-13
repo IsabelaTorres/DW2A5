@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div class="container col-sm-4">
+        <h1>Formulário</h1>
+        <hr>
+        <form action="destinoex04.php" method="POST">
+
+            <div class="col-sm-12 mb-2">
+                <label for="camadas" class="form-label">Quantidade de camadas da pirâmide:</label>
+                <input type="number" class="form-control" name="camadas" required>
+            </div>
+
+            <div class="col-sm-12 mb-2">
+                <label for="alinhamento" class="form-label">Alinhamento:</label>
+                <select name="alinhamento" class="form-label">
+                    <option value="left">Esquerda</option>
+                    <option value="center">Centro</option>
+                    <option value="right">Direita</option>
+                   </select>
+            </div>
+           
+
+            <div class="col-sm-12 text-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-warning">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

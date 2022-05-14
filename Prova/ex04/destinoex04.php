@@ -21,33 +21,18 @@
             for ($y = 0; $y <= $x; $y++) {
 
                 echo "*"
-        ?>
-
-            <?php
             }
             ?>
             <br>
         <?php
         }
-
-
         ?>
         </div>
-
-    <?php
- 
-        ?>
         <style>
             .piramide{
                 text-align: <?php echo $alinhamento?>;
             }
         </style>
-        <?php
-   
-    ?>
-
-
-
     </div>
 </body>
 
